@@ -1,4 +1,48 @@
-body {
+footer {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: small;
+}.heading {
     background-image: linear-gradient(#b8e9f1, #9edcf5, #50a9fc);
     text-align: center;
+    font-size: x-large;
+}
+.bottom {
+    background-color:rgb(255, 242, 226);
+}
+.title {
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 5px 50px 50px 50px;
+}
+.name_title {
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 50px 50px 5px 50px;
+}
+.b_heading {
+    text-align:center;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 125;
+    font-size:x-large;
+}
+.description{
+    color:black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.f_list_heading {
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 150;
+}
+.f_list  {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color:black;
 }
