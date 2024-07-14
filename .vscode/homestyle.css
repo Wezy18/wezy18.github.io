@@ -3,15 +3,17 @@ footer {
     font-weight: 100;
     text-align: center;
     font-size: small;
+    background-color: rgb(255, 242, 226);
+    padding:10px;
 }.heading {
     background-image: linear-gradient(#b8e9f1, #9edcf5, #50a9fc);
     text-align: center;
     font-size: x-large;
-    margin:0%;
+    margin:0px;
 }
 .bottom {
     background-color:rgb(255, 242, 226);
-    margin:0%;
+    margin:0px;
 }
 .title {
     color:white;
@@ -31,6 +33,7 @@ footer {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 125;
     font-size:x-large;
+    padding: 40px 20px 15px;
 }
 .description{
     color:black;
@@ -38,13 +41,39 @@ footer {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 100;
 }
-.f_list_heading {
+.list_heading1 {
     color:black;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 150;
+    padding:5px 3px;
 }
-.f_list  {
+.list1  {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 100;
     color:black;
+    padding:3px;
+}
+.list_heading2 {
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 150;
+    padding:5px 3px;
+}
+.list2  {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color:black;
+    padding:3px;
+}
+.list_heading3 {
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 150;
+    padding:5px 3px;
+}
+.list3  {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color:black;
+    padding:3px;
 }
