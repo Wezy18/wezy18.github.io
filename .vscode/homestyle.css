@@ -1,79 +1,82 @@
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+* {
+    margin: 0;
+    padding: 0;    
+}
 footer {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Open Sans', sans-serif;
     font-weight: 100;
     text-align: center;
     font-size: small;
-    background-color: rgb(255, 242, 226);
+    background-color: rgb(245, 245, 245);
     padding:10px;
 }.heading {
     background-image: linear-gradient(#b8e9f1, #9edcf5, #50a9fc);
     text-align: center;
     font-size: x-large;
-    margin:0px;
 }
 .bottom {
-    background-color:rgb(255, 242, 226);
-    margin:0px;
+    background-color: rgb(245, 245, 245);
+    margin: auto;
 }
 .title {
     color:white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Open Sans', sans-serif;
     font-weight: 100;
     padding: 5px 50px 50px 50px;
 }
 .name_title {
     color:white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Open Sans', sans-serif;
     font-weight: 100;
     padding: 50px 50px 5px 50px;
 }
 .b_heading {
-    text-align:center;
+    text-align:left;
     color:black;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Open Sans', sans-serif;
     font-weight: 125;
     font-size:x-large;
     padding: 40px 20px 15px;
+    font-weight: 400;
 }
 .description{
     color:black;
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-family:'Open Sans', sans-serif;
     font-weight: 100;
+    font-size: 20px;
+    padding-left: 20px;
 }
-.list_heading1 {
+.list_heading1, .list_heading2, .list_heading3 {
     color:black;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 150;
+    font-family:'Open Sans', sans-serif;
+    font-weight:400;
     padding:5px 3px;
+    font-size:18px;
 }
-.list1  {
-    font-family:Arial, Helvetica, sans-serif;
+.list1, .list2, .list3  {
+    font-family:'Open Sans', sans-serif;
     font-weight: 100;
     color:black;
     padding:3px;
+    font-size: 16px;
 }
 .list_heading2 {
-    color:black;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 150;
-    padding:5px 3px;
+    
 }
 .list2  {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    color:black;
-    padding:3px;
+    
 }
 .list_heading3 {
-    color:black;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 150;
-    padding:5px 3px;
+    
 }
 .list3  {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    color:black;
-    padding:3px;
+    
 }
