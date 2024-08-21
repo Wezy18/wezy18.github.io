@@ -69,7 +69,9 @@ footer {
     color:black;
     font-family:'Open Sans', sans-serif;
     font-weight:400;
-    padding:5px 3px;
+    padding:5px 58px;
+    padding-left:3px;
+    padding-top:15px;
     font-size:18px;
 }
 .list1, .list2, .list3  {
@@ -79,15 +81,15 @@ footer {
     padding:3px;
     font-size: 16px;
 }
-.list_heading2 {
-    
+.flexexperiment, .secondexperiment, .thirdexperiment {
+    display:flex;
+    justify-content: center;
+    align-items: normal;
+
 }
-.list2  {
-    
+.secondexperiment {
+
 }
-.list_heading3 {
-    
-}
-.list3  {
+.firstelement{
     
 }
