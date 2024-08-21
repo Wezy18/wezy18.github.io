@@ -57,6 +57,7 @@ footer {
     padding: 40px 3px 15px;
     font-weight: 400;
     padding-right:500px;
+    padding-left: 50px;
 }
 .description{
     color:black;
@@ -64,13 +65,13 @@ footer {
     font-family:'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 20px;
-    padding-left: 3px;
+    padding-left: 53px;
 }
 .list_heading1, .list_heading2, .list_heading3 {
     color:black;
     font-family:'Open Sans', sans-serif;
     font-weight:400;
-    padding:5px 90px;
+    padding:5px 73px;
     padding-left:3px;
     padding-top:15px;
     font-size:18px;
