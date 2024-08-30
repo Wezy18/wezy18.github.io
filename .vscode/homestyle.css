@@ -15,8 +15,12 @@ footer {
     text-align: center;
     font-size: small;
     background-color: rgb(255, 255, 255);
-    padding: 20px;px;
+    padding: 20px;
 }
+html {
+    scroll-behavior:smooth;
+}
+
 .logo{
     height:75px;
     width:100px;
@@ -131,3 +135,4 @@ a:link {
   a:link, a:visited {
     text-decoration: none;
   }
+  
