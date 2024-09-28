@@ -15,7 +15,10 @@ footer {
     text-align: center;
     font-size: small;
     background-color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 20px 10px 10px 20px;
+}
+.footer_text{
+    padding-top:15px;
 }
 html {
     scroll-behavior:smooth;
@@ -25,6 +28,12 @@ html {
     height:75px;
     width:100px;
     padding-top: 50px;
+}
+.bottom_logos {
+    height:50px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 5px;
 }
 .heading {
     background-image: linear-gradient(#b8e9f1, #9edcf5, #50a9fc);
