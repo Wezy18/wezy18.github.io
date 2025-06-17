@@ -1,15 +1,15 @@
-.open-sans {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-  }
   
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+  
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
   }
   
   html {
@@ -107,7 +107,7 @@
     padding: 10px 50px 20px;
   }
   
-  .list_heading1, .list_heading2, .list_heading3 {
+  .list_heading1, .list_heading2, .list_heading3, .list_heading4, .list_heading5{
     color: rgb(80, 80, 80);
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -116,7 +116,7 @@
     letter-spacing: 2px;
   }
   
-  .list1, .list2, .list3 {
+  .list1, .list2, .list3, .list4, .list5 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     color: rgb(80, 80, 80);
@@ -126,7 +126,7 @@
   }
   
   /* FLEX CONTAINERS */
-  .flexexperiment, .secondexperiment, .thirdexperiment {
+  .flexexperiment, .thirdexperiment {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -134,10 +134,17 @@
     gap: clamp(10px, 7vw, 90px);
   }
   
-  /* Example for flex items */
-  .firstelement {
-    flex: 0 1 auto;
+  /*CSS Grid*/
+  .secondexperiment {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: clamp(10px, 4vw, 60px);
+    justify-content: center; /* Center the whole grid */
+    max-width: 815px; /* Optional: prevents grid from stretching too far */
+    margin: 0 auto; /* Horizontally center */
+    padding: 20px 50px;
   }
+  
   
   /* LINK STYLES */
   a:link, a:visited {
@@ -159,6 +166,10 @@
       font-size: 20px;
       padding: 10px 30px 15px;
     }
+    
+    .secondexperiment {
+      max-width: 715px; 
+    }
   }
   
   @media (max-width: 768px) {
@@ -171,13 +182,19 @@
       font-size: 48px;
     }
   
-    .flexexperiment, .secondexperiment, .thirdexperiment {
+    .flexexperiment, .thirdexperiment {
       flex-direction: column;
       align-items: left;
       padding-left:20px;
     }
 
-    .secondexperiment, .thirdexperiment{
+    .secondexperiment {
+      grid-template-columns: repeat(2, auto);
+      padding: 10px 50px;
+      max-width: 730px;
+    }
+    
+    .thirdexperiment{
         padding-left:40px;
     }
   
@@ -195,6 +212,11 @@
     .description1, .description2 {
       font-size: 18px;
       padding: 10px 20px 15px;
+    }
+
+    .secondexperiment {
+      grid-template-columns: 1fr;
+      padding: 10px 40px;
     }
   
     .title, .name_title {
