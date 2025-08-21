@@ -87,7 +87,7 @@
     padding: 50px 50px 5px;
   }
   
-  .b_heading1, .b_heading2 {
+  .b_heading {
     text-align: left;
     color: rgb(80, 80, 80);
     font-family: 'Open Sans', sans-serif;
@@ -97,7 +97,7 @@
     padding: 100px 50px 15px 50px;
   }
   
-  .description1, .description2 {
+  .description {
     color: rgb(80, 80, 80);
     text-align: left;
     font-family: 'Open Sans', sans-serif;
@@ -107,7 +107,7 @@
     padding: 10px 50px 20px;
   }
   
-  .list_heading1, .list_heading2, .list_heading3, .list_heading4, .list_heading5{
+  .list_heading{
     color: rgb(80, 80, 80);
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -116,7 +116,7 @@
     letter-spacing: 2px;
   }
   
-  .list1, .list2, .list3, .list4, .list5 {
+  .list {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     color: rgb(80, 80, 80);
@@ -157,12 +157,12 @@
   
   /* RESPONSIVE MEDIA QUERIES */
   @media (max-width: 1024px) {
-    .b_heading1, .b_heading2 {
+    .b_heading {
       font-size: 28px;
       padding: 80px 30px 10px;
     }
   
-    .description1, .description2 {
+    .description {
       font-size: 20px;
       padding: 10px 30px 15px;
     }
@@ -204,12 +204,12 @@
   }
   
   @media (max-width: 480px) {
-    .b_heading1, .b_heading2 {
+    .b_heading {
       font-size: 24px;
       padding: 50px 20px 10px;
     }
   
-    .description1, .description2 {
+    .description {
       font-size: 18px;
       padding: 10px 20px 15px;
     }
