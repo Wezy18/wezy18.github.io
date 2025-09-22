@@ -1,4 +1,4 @@
-  
+  /* GENERAL STYLING */
   * {
     margin: 0;
     padding: 0;
@@ -32,7 +32,7 @@
   .logo {
     height: auto;
     width: auto;
-    max-width: 100px; /* adjust this if needed */
+    max-width: 100px;
     padding-top: 50px;
   }
   
@@ -41,28 +41,6 @@
     width: 50px;
     border-radius: 10px;
     margin: 10px;
-  }
-
-  .bottom_images {
-    display: flex;
-    justify-content: center;
-    gap: clamp(20px, 6vw, 100px);
-    max-width: 815px;
-    margin: 0 auto;
-    padding: 25px 50px;
-  }
-
-  .sample_images {
-    width: 250px;
-    border-radius: 5px;
-    filter:brightness(90%);
-    transition: transform 0.3s ease;
-    transition: filter 0.3s ease;
-  }
-
-  .sample_images:hover {
-    filter:brightness(100%);
-    transform: scale(1.05);
   }
   
   .heading {
@@ -82,16 +60,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .bounce {
-    animation: bounce 2s ease infinite;
-  }
-  
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-    40% {transform: translateY(-10px);}
-    60% {transform: translateY(-3px);}
   }
   
   .bottom1, .bottom2 {
@@ -166,17 +134,97 @@
     gap: clamp(10px, 7vw, 90px);
   }
   
-  /*CSS Grid*/
+  /* CSS GRID */
   .secondexperiment {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: clamp(10px, 4vw, 60px);
-    justify-content: center; /* Center the whole grid */
-    max-width: 815px; /* Optional: prevents grid from stretching too far */
-    margin: 0 auto; /* Horizontally center */
+    justify-content: center; 
+    max-width: 815px; 
+    margin: 0 auto; 
     padding: 20px 50px;
   }
   
+  /* ANIMATIONS */
+  .bounce {
+    animation: bounce 2s ease infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-10px);}
+    60% {transform: translateY(-3px);}
+  }
+
+  /* CARD STYLING */
+  .projects-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+  }
+  
+  .projects-card {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border-radius: 6px;
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 900px rgba(55, 71, 79, 0.6);
+  }
+  
+  /* Title */
+  .projects-card h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0;
+    transition: margin 0.5s;
+    z-index: 2;
+  }
+  
+  /* Description*/
+  .project-description {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    transition: top 0.5s;
+    z-index: 1;
+  }
+  
+  /* Hover effect */
+  .projects-card:hover h3 {
+    margin-top: -16rem; 
+  }
+  
+  .projects-card:hover .project-description {
+    top: 35%;
+  }
+  
+  /* Backgrounds */
+  #willow-creek {
+    background: url("../images/samples/willow_creek.png") no-repeat center/cover;
+  }
+  
+  #cawpile {
+    background: url("../images/samples/cawpile.png") no-repeat center/cover;
+  }
+  
+  /* Override global link style inside cards */
+  .projects-card a {
+    color: #fff;
+    text-decoration: underline;
+  }
   
   /* LINK STYLES */
   a:link, a:visited {
