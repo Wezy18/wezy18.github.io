@@ -48,14 +48,14 @@ footer {
 }
 
 .footer_text {
-  padding-top: 15px;
+  padding: 15px;
 }
 
 .bottom_logos {
   height: 50px;
   width: 50px;
   border-radius: 10px;
-  margin: 10px;
+  margin: 10px 15px;
 }
 
 /* GRID CONTAINERS */
@@ -68,7 +68,7 @@ footer {
 
 .bottom1 {
   background-color: #d3f3f5;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .bottom2 {
@@ -107,21 +107,18 @@ footer {
   text-align: center;
 }
 
-.bottom1 .arrow,
-.bottom2 .arrow {
+.bottom1 .arrow {
   grid-column: 2;
   justify-self: center;
 }
 
-.bottom1 > a,
-.bottom2 > a {
+.bottom1 > a {
   grid-column: 2;  
   justify-self: center;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
 }
 
 /* Bounce animation */
@@ -226,7 +223,7 @@ footer {
 }
 
 .projects-card:hover .project-description {
-  top: 25%;
+  top: 26%;
 }
 
 /* Card backgrounds */
