@@ -1,129 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="styles/homestyle.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <main>
-            <div class="heading">
-                <img class="logo" src="images/white-bird-silhouette-hi.png" alt="logo">
-                <h1 class="name_title">Rebecca Corder</h1>
-                <h2 class="title">Web Developer</h2>
-                <a href="#firstlink"><div class="arrow bounce">&#8964;</div></a>
-            </div>
-            <div class="bottom1">
-                <div class="flexexperiment">
-                    <div>
-                        <h2 class="b_heading"><a id="firstlink">My Skills</a></h2>
-                        <div class="description">All the languages, skills, and tools I've learned and used.</div>
-                    </div>   
-                </div>
-                <div class="secondexperiment">    
-                    <div class="firstelement">
-                        <div class="list_heading">Languages</div>
-                            <div class="list">HTML5</div>
-                            <div class="list">CSS</div>
-                            <div class="list">JavaScript</div>
-                            <div class="list">Python</div>
-                            <div class="list">Java</div>
-                            <div class="list">C</div>
-                            <div class="list">PHP</div>
-                    </div>    
-                    <div class="secondelement">
-                        <div class="list_heading">Libraries:</div>
-                            <div class="list">React</div>
-                    </div>
-                    <div class="thirdelement">
-                        <div class="list_heading">Tools:</div>
-                            <div class="list">Git</div>
-                            <div class="list">Figma</div>
-                            <div class="list">Microsoft 365</div>
-                    </div>
-                    <div class="fourthelement">
-                        <div class="list_heading">Databases & Backend:</div>
-                            <div class="list">MySQL</div>
-                            <div class="list">EMR Systems</div>
-                    </div>
-                    <div class="fifthelement">
-                        <div class="list_heading">Systems Analysis & Design:</div>
-                            <div class="list">Agile Methodology</div>
-                            <div class="list">Use Case Development</div>
-                            <div class="list">Data Normalization (1NF-3NF)</div>
-                            <div class="list">Business Process Mapping (ERD, DFD)</div>
-                    </div>
-                    <div class="sixthelement">
-                        <div class="list_heading">Additional Skills:</div>
-                            <div class="list">UX/UI Design</div>
-                            <div class="list">Computer Networking</div>
-                    </div>
-                    <br>
-                </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <a href="#secondlink"><div class="arrow bounce">&#8964;</div></a>
-                    <br>
-                <div class="bottom2">
-                    <div class="thirdexperiment">
-                        <div>
-                            <h2 class="b_heading"><a id="secondlink">My Work</a></h2>
-                            <div class="description">Want to see more work? Check out my <u><a href="https://github.com/Wezy18" target="_blank">GitHub</a></u>.</div>
-                        </div>
-                    </div>
-                    <br>
-                    <section class="projects-cards-container">
-                        <!-- Willow Creek -->
-                        <a href="https://github.com/Wezy18/Willow-Creek-Wildlife-Park" target="_blank">
-                            <section class="projects-card" id="willow-creek">
-                            <h3>Willow Creek Wildlife Park</h3>
-                            <section class="project-description">
-                                <p>Explore this interactive website for a fictional zoo.</p>
-                            </section>
-                            </section>
-                        </a>
-                      
-                        <!-- CAWPILE -->
-                        <a href="https://github.com/Wezy18/CAWPILE-Rating-Tool" target="_blank">
-                            <section class="projects-card" id="cawpile">
-                            <h3>CAWPILE Rating Tool</h3>
-                            <section class="project-description">
-                                <p>Make book rating easy with this quick CAWPILE tool.</p>
-                            </section>
-                            </section>
-                        </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/homestyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-                        <!-- Mars Rover -->
-                        <a href="https://github.com/Wezy18/mars-rover-sensor-system" target="_blank">
-                            <section class="projects-card" id="mars-rover">
-                            <h3>Mars Rover</h3>
-                            <section class="project-description">
-                                <p>Play scientist with a Mars rover simulator!</p>
-                            </section>
-                            </section>
-                        </a>
-                      </section>                      
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </div>
+  <body>
+    <main>
+      <!-- Header / Landing Section -->
+      <div class="heading">
+        <img
+          class="logo"
+          src="images/white-bird-silhouette-hi.png"
+          alt="logo"
+        />
+        <h1 class="name_title">Rebecca Corder</h1>
+        <h2 class="title">Web Developer</h2>
+        <a href="#firstlink"><div class="arrow bounce">&#8964;</div></a>
+      </div>
+
+      <!-- Section 1: My Skills -->
+      <div class="bottom1">
+        <div class="flexexperiment">
+          <div>
+            <h2 class="b_heading"><a id="firstlink">My Skills</a></h2>
+            <div class="description">
+              All the languages, skills, and tools I've learned and used.
             </div>
-        </main>
-    </body>
+          </div>
+        </div>
+
+        <div class="secondexperiment">
+          <div class="firstelement">
+            <div class="list_heading">Languages</div>
+            <div class="list">HTML5</div>
+            <div class="list">CSS</div>
+            <div class="list">JavaScript</div>
+            <div class="list">Python</div>
+            <div class="list">Java</div>
+            <div class="list">C</div>
+            <div class="list">PHP</div>
+          </div>
+
+          <div class="secondelement">
+            <div class="list_heading">Libraries:</div>
+            <div class="list">React</div>
+          </div>
+
+          <div class="thirdelement">
+            <div class="list_heading">Tools:</div>
+            <div class="list">Git</div>
+            <div class="list">Figma</div>
+            <div class="list">Microsoft 365</div>
+          </div>
+
+          <div class="fourthelement">
+            <div class="list_heading">Databases & Backend:</div>
+            <div class="list">MySQL</div>
+            <div class="list">EMR Systems</div>
+          </div>
+
+          <div class="fifthelement">
+            <div class="list_heading">Systems Analysis & Design:</div>
+            <div class="list">Agile Methodology</div>
+            <div class="list">Use Case Development</div>
+            <div class="list">Data Normalization (1NF-3NF)</div>
+            <div class="list">Business Process Mapping (ERD, DFD)</div>
+          </div>
+
+          <div class="sixthelement">
+            <div class="list_heading">Additional Skills:</div>
+            <div class="list">UX/UI Design</div>
+            <div class="list">Computer Networking</div>
+          </div>
+        </div>
+
+        <a href="#secondlink"><div class="arrow bounce">&#8964;</div></a>
+      </div>
+
+      <!-- Section 2: My Work -->
+      <div class="bottom2">
+        <div class="thirdexperiment">
+          <div>
+            <h2 class="b_heading"><a id="secondlink">My Work</a></h2>
+            <div class="description">
+              Want to see more work? Check out my
+              <u
+                ><a href="https://github.com/Wezy18" target="_blank"
+                  >GitHub</a
+                ></u
+              >.
+            </div>
+          </div>
+        </div>
+
+        <section class="projects-cards-container">
+          <!-- Willow Creek -->
+          <a
+            href="https://github.com/Wezy18/Willow-Creek-Wildlife-Park"
+            target="_blank"
+          >
+            <section class="projects-card" id="willow-creek">
+              <h3>Willow Creek Wildlife Park</h3>
+              <section class="project-description">
+                <p>Explore this interactive website for a fictional zoo.</p>
+              </section>
+            </section>
+          </a>
+
+          <!-- CAWPILE -->
+          <a
+            href="https://github.com/Wezy18/CAWPILE-Rating-Tool"
+            target="_blank"
+          >
+            <section class="projects-card" id="cawpile">
+              <h3>CAWPILE Rating Tool</h3>
+              <section class="project-description">
+                <p>
+                  Make book rating easy with this quick CAWPILE tool.
+                </p>
+              </section>
+            </section>
+          </a>
+
+          <!-- Mars Rover -->
+          <a
+            href="https://github.com/Wezy18/mars-rover-sensor-system"
+            target="_blank"
+          >
+            <section class="projects-card" id="mars-rover">
+              <h3>Mars Rover</h3>
+              <section class="project-description">
+                <p>
+                  Play scientist with a Mars rover simulator!
+                </p>
+              </section>
+            </section>
+          </a>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
     <footer>
-        <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage" target="_blank"><img class="bottom_logos" src="images/logos/indeed logo.png"></a>
-        <a href="https://park.joinhandshake.com/profiles/56857533" target="_blank"><img class="bottom_logos" src="images/logos/handshake logo.png"></a>
-        <a href="https://www.upwork.com/freelancers/~01168af9f264ca5f5f?viewMode=1" target="_blank"><img class="bottom_logos" src="images/logos/upwork logo.png"></a>
-        <a href="https://www.linkedin.com/in/rebecca-corder-73193432b/" target="_blank"><img class="bottom_logos" src="images/logos/linked in logo.jpg"></a>
-        <div class="footer_text">Rebecca Corder &copy 2024</div>
+      <a
+        href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage"
+        target="_blank"
+        ><img
+          class="bottom_logos"
+          src="images/logos/indeed logo.png"
+          alt="Indeed logo"
+      /></a>
+      <a
+        href="https://park.joinhandshake.com/profiles/56857533"
+        target="_blank"
+        ><img
+          class="bottom_logos"
+          src="images/logos/handshake logo.png"
+          alt="Handshake logo"
+      /></a>
+      <a
+        href="https://www.upwork.com/freelancers/~01168af9f264ca5f5f?viewMode=1"
+        target="_blank"
+        ><img
+          class="bottom_logos"
+          src="images/logos/upwork logo.png"
+          alt="Upwork logo"
+      /></a>
+      <a
+        href="https://www.linkedin.com/in/rebecca-corder-73193432b/"
+        target="_blank"
+        ><img
+          class="bottom_logos"
+          src="images/logos/linked in logo.jpg"
+          alt="LinkedIn logo"
+      /></a>
+      <div class="footer_text">Rebecca Corder &copy; 2024</div>
     </footer>
+  </body>
 </html>
