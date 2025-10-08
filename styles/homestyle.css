@@ -220,6 +220,10 @@
   #cawpile {
     background: url("../images/samples/cawpile.png") no-repeat center/cover;
   }
+
+  #mars-rover {
+    background: url("../images/samples/mars-rover.JPG") no-repeat center/cover;
+  }
   
   /* Override global link style inside cards */
   .projects-card a {
