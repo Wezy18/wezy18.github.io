@@ -14,7 +14,7 @@ body {
 }
 
 /* HEADER */
-.heading {
+header.top-heading {
   background-image: linear-gradient(#b8e9f1, #9edcf5, #50a9fc);
   text-align: center;
   font-size: 28px;
@@ -28,13 +28,13 @@ body {
 }
 
 .title,
-.name_title {
+.name {
   color: white;
   font-weight: 100;
   padding: 5px 50px 50px;
 }
 
-.name_title {
+.name {
   padding: 50px 50px 5px;
 }
 
@@ -51,7 +51,17 @@ footer {
   padding: 15px;
 }
 
-.bottom_logos {
+footer nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_logos {
   height: 50px;
   width: 50px;
   border-radius: 10px;
@@ -59,41 +69,43 @@ footer {
 }
 
 /* GRID CONTAINERS */
-.bottom1,
-.bottom2 {
+.skills,
+.my_work {
   display: grid;
   grid-template-columns: minmax(1rem, auto) minmax(auto, 950px) minmax(1rem, auto);
   grid-template-rows: auto;
 }
 
-.bottom1 {
+.skills {
   background-color: #d3f3f5;
   padding-bottom: 30px;
 }
 
-.bottom2 {
+.my_work {
   background-color: #6fadc5;
   padding-top: 40px;
   padding-bottom: 100px;
 }
 
 /* SECTION HEADINGS */
-.b_heading {
+.section-heading {
   text-align: left;
   color: rgb(80, 80, 80);
   font-size: 32px;
   letter-spacing: 2px;
   font-weight: 400;
   padding: 100px 50px 15px 50px;
+  grid-column: 2;
 }
 
-.description {
+.section-description {
   color: rgb(80, 80, 80);
   text-align: left;
   font-weight: 100;
   font-size: 24px;
   letter-spacing: 2px;
   padding: 10px 50px 20px;
+  grid-column: 2;
 }
 
 /* ARROW */
@@ -107,13 +119,9 @@ footer {
   text-align: center;
 }
 
-.bottom1 .arrow {
+.skills .arrow,
+.my_work .arrow {
   grid-column: 2;
-  justify-self: center;
-}
-
-.bottom1 > a {
-  grid-column: 2;  
   justify-self: center;
   width: 100%;
   display: flex;
@@ -133,6 +141,17 @@ footer {
 }
 
 /* SKILLS GRID */
+.skills-grid {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(10px, 4vw, 60px);
+  padding: 20px 50px;
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .list_heading {
   color: rgb(80, 80, 80);
   font-weight: 400;
@@ -141,29 +160,17 @@ footer {
   letter-spacing: 2px;
 }
 
-.list {
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
   font-weight: 100;
   color: rgb(80, 80, 80);
   padding: 3px 2px;
   font-size: 18px;
   letter-spacing: 2px;
-}
-
-.flexexperiment,
-.secondexperiment,
-.thirdexperiment {
-  grid-column: 2;
-  max-width: 950px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-/* Skills grid layout */
-.secondexperiment {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: clamp(10px, 4vw, 60px);
-  padding: 20px 50px;
 }
 
 /* PROJECTS SECTION */
@@ -180,7 +187,6 @@ footer {
   box-sizing: border-box;
 }
 
-/* Card styles */
 .projects-card {
   position: relative;
   flex: 1 1 28%;
@@ -197,7 +203,11 @@ footer {
   box-shadow: inset 0 0 0 900px rgba(55, 71, 79, 0.6);
 }
 
-/* Card text */
+.projects-card h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .projects-card h3 {
   font-weight: 400;
   font-size: 1rem;
@@ -253,12 +263,12 @@ a:active {
 
 /* RESPONSIVE ADJUSTMENTS */
 @media (max-width: 1024px) {
-  .b_heading {
+  .section-heading {
     font-size: 28px;
     padding: 80px 30px 10px;
   }
 
-  .description {
+  .section-description {
     font-size: 20px;
     padding: 10px 30px 15px;
   }
@@ -269,7 +279,7 @@ a:active {
     font-size: 48px;
   }
 
-  .secondexperiment {
+  .skills-grid {
     grid-template-columns: repeat(2, 1fr);
     padding: 10px 30px;
   }
@@ -285,17 +295,17 @@ a:active {
 }
 
 @media (max-width: 480px) {
-  .b_heading {
+  .section-heading {
     font-size: 24px;
     padding: 50px 20px 10px;
   }
 
-  .description {
+  .section-description {
     font-size: 18px;
     padding: 10px 20px 15px;
   }
 
-  .secondexperiment {
+  .skills-grid {
     grid-template-columns: 1fr;
     padding: 10px 20px;
   }
