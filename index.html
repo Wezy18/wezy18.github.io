@@ -13,18 +13,46 @@
     />
   </head>
 
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+
   <body>
+    <!--- Header -->
     <header class="top-heading">
       <img
         class="logo"
         src="images/white-bird-silhouette-hi.png"
         alt="White bird silhouette logo"
       />
-      <h1 class="name">Rebecca Corder</h1>
-      <p class="title">Web Developer</p>
-      <a href="#skills" class="arrow bounce" aria-label="Scroll to My Skills section">
-        &#8964;
-      </a>
+      <header class="landing-titles">
+        <h1 class="name">Rebecca Corder</h1>
+        <h2 class="title">Web Developer</h2>
+      </header>
+
+      <!-- LAPTOP -->
+      <section class="laptop-container">
+        <span class="laptop-top-lip"></span>
+        <span class="laptop-left-lip"></span>
+        <span class="laptop-right-lip"></span>
+        <span class="laptop-webcam-container">
+           <span class="laptop-webcam"></span>
+        </span>
+
+        <!-- LAPTOP SCREEN -->
+        <section class="laptop-screen">
+           <span class="laptop-number-line">
+              1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14
+           </span>
+           <div id="laptop-typewriter"></div>
+        </section>
+        
+        <!-- Down Arrow -->
+        <section class="down-arrow-container">
+            <a href="#skills">
+               <button class="down-arrow bounce"></button>
+            </a>
+         </section>
     </header>
 
     <main>
@@ -92,9 +120,13 @@
           </section>
         </div>
 
-        <a href="#work" class="arrow bounce" aria-label="Scroll to My Work section">
-          &#8964;
-        </a>
+        <!-- Down Arrow -->
+        <section class="down-arrow-container" id="skills-down-arrow">
+          <a href="#work">
+              <button class="down-arrow bounce"></button>
+          </a>
+        </section>
+
       </section>
 
       <!-- Section 2: My Work -->
@@ -225,5 +257,8 @@
       </nav>
       <p class="footer_text">Rebecca Corder &copy; 2024</p>
     </footer>
+
+    <script src="/scripts/scripts.js"></script>
+
   </body>
 </html>
