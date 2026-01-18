@@ -37,7 +37,7 @@ $(document).ready(function() {
         .typeString("<br>")
         .typeString("<br>")
         .typeString(
-            'const <span class="sytax-dark-blue">Coder</span> = <span class="syntax-dark-blue">new</span> Human<span class="parentheses">(</span><span class="syntax-light-blue">"Rebecca"</span><span class="parentheses">)</span>;'
+            'const <span class="syntax-dark-blue">Coder</span> = <span class="syntax-dark-blue">new</span> Human<span class="parentheses">(</span><span class="syntax-light-blue">"Rebecca"</span><span class="parentheses">)</span>;'
         )
         .typeString("<br>")
         .typeString("<br>")
