@@ -1,6 +1,6 @@
 # Portfolio Website - Rebecca Corder
 
-This repository contains the source code for my personal portfolio website, created to showcase my technical skills, projects, and design approach as I pursue **software engineering and web development internships**.
+This repository contains the source code for my personal portfolio website, created to showcase my technical skills, projects, and design approach.
 
 The site is designed to be clean, responsive, and approachable, with interactive elements that reflect both my technical background and my interest in thoughtful, user-focused experiences.
 
@@ -10,7 +10,7 @@ This portfolio serves as a central hub for:
 - Showcasing selected projects with links to source code
 - Providing quick access to my professional profiles (GitHub, LinkedIn, Handshake, etc.)
 
-The landing section features a **typewriter-style code animation** to introduce me in a playful but professional way, while the rest of the site focuses on clarity, accessibility, and responsiveness.
+The landing section features a typewriter-style code animation to introduce me in a playful but professional way, while the rest of the site focuses on clarity, accessibility, and responsiveness.
 
 ## Features
 - **Fully responsive design** using CSS Grid and Flexbox
