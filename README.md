@@ -1,5 +1,7 @@
 # Portfolio Website - Rebecca Corder
 
+**Live Site:** [View Portfolio](https://wezy18.github.io/)
+
 This repository contains the source code for my personal portfolio website, created to showcase my technical skills, projects, and design approach.
 
 The site is designed to be clean, responsive, and approachable, with interactive elements that reflect both my technical background and my interest in thoughtful, user-focused experiences.
